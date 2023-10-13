@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="css/cdnjs.cloudflare.com_ajax_libs_bootstrap_4.6.2_css_bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-around text-center">
+          <form onsubmit=" return jo()">
+              <h2>enter days</h2>
+              <input type=" text" placeholder="enter days" name="days" id="days" class="text-center">
+              <h2>enter number of step</h2>
+              <input type="text" placeholder="enter step" name="step" id="step" class="text-center" >
+            <input type="submit" class="btn btn-danger btn-block mt-3" onclick=" jo()">
+            <h3 id="result"></h3>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_jquery_3.5.1_jquery.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.1_umd_popper.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_bootstrap_4.6.2_js_bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
